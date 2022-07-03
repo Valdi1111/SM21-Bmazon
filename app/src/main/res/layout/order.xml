@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginTop="8dp"
-            android:background="?android:attr/textColorSecondary" />
+            android:background="@color/colorLightGray" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/products_list"
@@ -57,7 +57,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="?android:attr/textColorSecondary" />
+            android:background="@color/colorLightGray" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
