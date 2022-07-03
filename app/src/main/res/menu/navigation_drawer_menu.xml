@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/menu_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/nav_home"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/nav_notifications"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_cart"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="@string/nav_cart"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_orders"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_local_shipping_24"
+            android:title="@string/nav_orders"
+            app:showAsAction="ifRoom" />
+    </group>
+    <group
+        android:id="@+id/menu_account"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/nav_profile"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_logout"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/nav_logout"
+            app:showAsAction="ifRoom" />
+    </group>
+    <group
+        android:id="@+id/menu_other"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/nav_settings"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_help"
+            android:checkable="true"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/nav_help"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

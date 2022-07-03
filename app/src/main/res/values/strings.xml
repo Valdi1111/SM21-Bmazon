@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Bmazon</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_crop">CropActivity</string>
+
+    <string name="not_implemented">Feature not implemented yet</string>
+    <string name="no_camera">Camera not found!</string>
+    <string name="network_error">Network error</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+    <string name="action_add">Add</string>
+    <string name="action_change">Change</string>
+    <string name="action_save">Save</string>
+    <string name="action_increment">Increment</string>
+    <string name="action_decrement">Decrement</string>
+    <string name="action_retry">Retry</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="prompt_name">Name</string>
+    <string name="prompt_surname">Surname</string>
+    <string name="prompt_fiscal_code">Fiscal code</string>
+    <string name="prompt_gender">Gender</string>
+
+    <string name="prompt_payment">Payment</string>
+    <string name="prompt_shipment">Shipment</string>
+
+    <string name="prompt_question">Question</string>
+    <string name="prompt_title">Title</string>
+    <string name="prompt_description">Description</string>
+    <string name="prompt_rating">Rating</string>
+
+    <string name="no_connection_image">No connection logo</string>
+    <string name="no_connection">OOPS! Internet not available!</string>
+    <string name="no_connection_retry">Check your internet connection.</string>
+
+    <!-- login view -->
+    <string name="login_image">Login logo</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_password">Password must be >= 8 characters</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="invalid_credentials">"Invalid credentials"</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_not_buyer">"Only buyers can sign-in!"</string>
+    <string name="not_logged_in">"You are not logged in!"</string>
+
+    <!-- app bar -->
+    <string name="app_bar_menu">Navigation</string>
+    <string name="app_bar_search">Search</string>
+    <string name="app_bar_filter">Filter</string>
+
+    <!-- navigation -->
+    <string name="nav_user_avatar">Avatar</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_product">Product</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_help">Help</string>
+
+    <!-- products filter -->
+    <string name="filter_category">Category</string>
+    <string name="choose_category">Choose category</string>
+    <string name="all_categories">All</string>
+    <string name="filter_price">Price</string>
+    <string name="choose_price">Price range</string>
+    <string name="min_price">Min</string>
+    <string name="max_price">Max</string>
+
+    <!-- product -->
+    <string name="product_image">Product image</string>
+    <string name="product_faqs">Faqs</string>
+    <string name="product_reviews">Reviews</string>
+    <string name="no_faqs">There are no faqs yet.</string>
+    <string name="no_reviews">There are no reviews yet.</string>
+
+    <string name="create_new_faq">Ask question</string>
+    <string name="faq_add_title">Create question</string>
+    <string name="faq_votes">0</string>
+    <string name="faq_vote_up">Upvote</string>
+    <string name="faq_vote_down">Downvote</string>
+
+    <string name="create_new_review">Add review</string>
+    <string name="review_add_title">Create review</string>
+    <string name="review_reviewer_avatar">Avatar</string>
+    <string name="review_date">Shared publicly on %1$s</string>
+    <string name="review_image">Review image</string>
+    <string name="review_helpful">Helpful</string>
+    <string name="review_undo">Undo</string>
+    <string name="review_votes">%1$d people found this helpful</string>
+
+    <string-array name="review_ratings">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+
+    <!-- cart -->
+    <string name="no_products">You didn\'t add any product yet.</string>
+    <string name="action_add_to_cart">Add to cart</string>
+    <string name="cart_added_product">Product added to cart</string>
+    <string name="cart_updated_product">Product updated</string>
+    <string name="cart_removed_product">Product removed</string>
+    <string name="cart_total">Total</string>
+    <string name="products_required">Please add at least a product!</string>
+    <string name="shipment_required">Please select a shipment address!</string>
+    <string name="payment_required">Please select a payment method!</string>
+    <string name="action_checkout">Checkout</string>
+    <string name="order_placed">Order placed successfully</string>
+
+    <!-- notification -->
+    <string name="no_notifications">There are no unread notifications.</string>
+    <string name="notification_read">Mark as read</string>
+    <string name="notification_mark_read">Notification read</string>
+
+    <!-- order -->
+    <string name="no_orders">There are no orders yet.</string>
+    <string name="order_date">Made on %1$s</string>
+    <string name="order_shipment">Shipment: %1$s, %2$s -  %3$s, %4$s</string>
+    <string name="order_state">State: %1$s</string>
+    <string name="order_total">Total</string>
+    <string name="order_amount">x%1$d</string>
+
+    <string-array name="order_states">
+        <item>Created</item>
+        <item>Accepted</item>
+        <item>Shipped</item>
+        <item>Received</item>
+    </string-array>
+
+    <!-- profile -->
+    <string name="user_avatar">User avatar</string>
+    <string-array name="user_genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="user_avatar_updated">User avatar updated</string>
+    <string name="user_data_updated">User data updated</string>
+    <string name="action_take_picture">Take picture</string>
+    <string name="action_select_photo">Select photo</string>
+
+</resources>

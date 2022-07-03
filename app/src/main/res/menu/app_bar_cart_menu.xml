@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cart_increment"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/action_increment"
+        app:showAsAction="ifRoom"
+        android:contentDescription="@string/app_bar_filter" />
+
+    <item
+        android:id="@+id/cart_decrement"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/action_decrement"
+        app:showAsAction="ifRoom"
+        android:contentDescription="@string/app_bar_filter" />
+
+    <item
+        android:id="@+id/cart_delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/action_delete"
+        app:showAsAction="ifRoom"
+        android:contentDescription="@string/app_bar_filter" />
+</menu>
