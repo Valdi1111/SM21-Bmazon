@@ -1,7 +1,7 @@
 package org.valdi.bmazon.utils;
 
 public class Constants {
-    public static final String SERVER_URL = "https://passwords.valdi.ovh/";
+    public static final String SERVER_URL = "https://store.valdi.ovh/";
     public static final String API_URL = SERVER_URL + "api/";
     public static final String UPLOAD_URL = SERVER_URL + "uploads/";
     public static final String AVATARS_URL = UPLOAD_URL + "avatars/";
