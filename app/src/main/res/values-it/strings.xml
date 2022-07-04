@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Bmazon</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_crop">CropActivity</string>
+
+    <string name="not_implemented">Funzionalità ancora non implementata</string>
+    <string name="no_camera">Camera not trovata!</string>
+    <string name="network_error">Errore di rete</string>
+    <string name="action_cancel">Cancella</string>
+    <string name="action_delete">Elimina</string>
+    <string name="action_done">Fatto</string>
+    <string name="action_add">Aggiungi</string>
+    <string name="action_change">Cambia</string>
+    <string name="action_save">Salva</string>
+    <string name="action_increment">Aumenta</string>
+    <string name="action_decrement">Diminuisci</string>
+    <string name="action_retry">Riprova</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="prompt_name">Nome</string>
+    <string name="prompt_surname">Cognome</string>
+    <string name="prompt_fiscal_code">Codice fiscale</string>
+    <string name="prompt_gender">Sesso</string>
+
+    <string name="prompt_payment">Pagamento</string>
+    <string name="prompt_shipment">Spedizione</string>
+
+    <string name="prompt_question">Domanda</string>
+    <string name="prompt_title">Titolo</string>
+    <string name="prompt_description">Descrizione</string>
+    <string name="prompt_rating">Voto</string>
+
+    <string name="no_connection_image">Logo no connessione</string>
+    <string name="no_connection">OOPS! Internet non funziona!</string>
+    <string name="no_connection_retry">Controlla la tua connessione a internet.</string>
+
+    <!-- login view -->
+    <string name="login_image">Logo login</string>
+    <string name="invalid_email">Email invalida</string>
+    <string name="invalid_password">Password deve essere >= 8 caratteri</string>
+    <string name="action_sign_in">Entra</string>
+    <string name="invalid_credentials">"Credenziali non valide"</string>
+    <string name="login_failed">"Login fallito"</string>
+    <string name="login_not_buyer">"Possono entrare solo i compratori!"</string>
+    <string name="not_logged_in">"Non hai effettuato l'accesso!"</string>
+
+    <!-- app bar -->
+    <string name="app_bar_menu">Navigazione</string>
+    <string name="app_bar_search">Cerca</string>
+    <string name="app_bar_filter">Filtra</string>
+
+    <!-- navigation -->
+    <string name="nav_user_avatar">Avatar</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_product">Prodotto</string>
+    <string name="nav_notifications">Notifiche</string>
+    <string name="nav_cart">Carrello</string>
+    <string name="nav_orders">Ordini</string>
+    <string name="nav_profile">Profilo</string>
+    <string name="nav_logout">Esci</string>
+    <string name="nav_settings">Impostazioni</string>
+    <string name="nav_help">Aiuto</string>
+
+    <!-- products filter -->
+    <string name="filter_category">Categoria</string>
+    <string name="choose_category">Scegli la categoria</string>
+    <string name="all_categories">Tutte</string>
+    <string name="filter_price">Prezzo</string>
+    <string name="choose_price">Scegli il prezzo</string>
+    <string name="min_price">Minimo</string>
+    <string name="max_price">Massimo</string>
+
+    <!-- product -->
+    <string name="product_image">Immagine prodotto</string>
+    <string name="product_faqs">Faqs</string>
+    <string name="product_reviews">Recensioni</string>
+    <string name="no_faqs">Non c\'è ancora nessuna faq.</string>
+    <string name="no_reviews">Non c\'è ancora nessuna recensione.</string>
+
+    <string name="create_new_faq">Aggiungi domanda</string>
+    <string name="faq_add_title">Crea domanda</string>
+    <string name="faq_votes">0</string>
+    <string name="faq_vote_up">Upvote</string>
+    <string name="faq_vote_down">Downvote</string>
+
+    <string name="create_new_review">Aggiungi recensione</string>
+    <string name="review_add_title">Crea recensione</string>
+    <string name="review_reviewer_avatar">Avatar</string>
+    <string name="review_date">Consivisa pubblicamente nel %1$s</string>
+    <string name="review_image">Immagine review</string>
+    <string name="review_helpful">Utile</string>
+    <string name="review_undo">Annulla</string>
+    <string name="review_votes">%1$d utenti la hanno trovata utile</string>
+
+    <string-array name="review_ratings">
+        <item>Uno</item>
+        <item>Due</item>
+        <item>Tre</item>
+        <item>Quattro</item>
+        <item>Cinque</item>
+    </string-array>
+
+    <!-- cart -->
+    <string name="no_products">Non hai ancora aggiunto nessun prodotto.</string>
+    <string name="action_add_to_cart">Aggiungi al carrello</string>
+    <string name="cart_added_product">Prodotto aggiunto al carrello</string>
+    <string name="cart_updated_product">Prodotto aggiornato</string>
+    <string name="cart_removed_product">Prodotto rimosso</string>
+    <string name="cart_total">Totale</string>
+    <string name="products_required">Aggiungi almento un prodotto!</string>
+    <string name="shipment_required">Seleziona un indirizzo di spedizione!</string>
+    <string name="payment_required">Seleziona un metodo di pagamento!</string>
+    <string name="action_checkout">Effettua ordine</string>
+    <string name="order_placed">Ordine effettuato con successo</string>
+
+    <!-- notification -->
+    <string name="no_notifications">Non ci sono notifiche non lette.</string>
+    <string name="notification_read">Leggi</string>
+    <string name="notification_mark_read">Notifica letta</string>
+
+    <!-- order -->
+    <string name="no_orders">Non hai ancora effettuato nessun ordine.</string>
+    <string name="order_date">Fatto nel %1$s</string>
+    <string name="order_shipment">Spedizione: %1$s, %2$s -  %3$s, %4$s</string>
+    <string name="order_state">Stato: %1$s</string>
+    <string name="order_total">Totale</string>
+    <string name="order_amount">x%1$d</string>
+
+    <string-array name="order_states">
+        <item>Creato</item>
+        <item>Accettato</item>
+        <item>Spedito</item>
+        <item>Ricevuto</item>
+    </string-array>
+
+    <!-- profile -->
+    <string name="user_avatar">Avatar utente</string>
+    <string-array name="user_genders">
+        <item>Maschio</item>
+        <item>Femmina</item>
+        <item>Altro</item>
+    </string-array>
+    <string name="user_avatar_updated">Avatar utente aggiornato</string>
+    <string name="user_data_updated">Informazioni utente aggiornate</string>
+    <string name="action_take_picture">Scatta foto</string>
+    <string name="action_select_photo">Seleziona immagine</string>
+
+</resources>
