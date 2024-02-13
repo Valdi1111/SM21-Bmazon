@@ -127,12 +127,12 @@ public interface RetrofitInterface {
             @Body() JsonObject request
     );
 
-    @GET("buyer/faqs/{id}/upvote")
+    @GET("buyer/products/faqs/{id}/upvote")
     Observable<JsonObject> getFaqUpvote(
             @Path("id") int id
     );
 
-    @POST("buyer/faqs/{id}/upvote")
+    @POST("buyer/products/faqs/{id}/upvote")
     Observable<Void> postFaqUpvote(
             @Path("id") int id,
             @Body JsonObject request
@@ -150,17 +150,17 @@ public interface RetrofitInterface {
             @Part MultipartBody.Part image
     );
 
-    @GET("buyer/reviews/{id}/helpful")
+    @GET("buyer/products/reviews/{id}/helpful")
     Observable<JsonObject> getReviewHelpful(
             @Path("id") int id
     );
 
-    @POST("buyer/reviews/{id}/helpful")
+    @POST("buyer/products/reviews/{id}/helpful")
     Observable<Void> postReviewHelpful(
             @Path("id") int id
     );
 
-    @DELETE("buyer/reviews/{id}/helpful")
+    @DELETE("buyer/products/reviews/{id}/helpful")
     Observable<Void> deleteReviewHelpful(
             @Path("id") int id
     );
